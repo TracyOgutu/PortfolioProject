@@ -1,0 +1,177 @@
+*{
+    margin:10px 10px;
+
+    
+   
+}
+html{
+    background-image:url(back21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:4px solid maroon;
+    border-style:double;
+    background-color: white;
+    scroll-behavior: smooth;
+    
+
+-webkit-animation: mymove 4s infinite; 
+  animation: mymove 4s infinite;
+}
+@-webkit-keyframes mymove {
+    50% {border-color: greenyellow;}
+  }
+  
+  @keyframes mymove {
+    50% {border-color:greenyellow;}
+  }
+
+header{
+    background-color:transparent;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+    width:98%;
+    
+}
+
+.main-nav{
+font-size: 20px;
+position:sticky;
+float:right;
+
+}
+.main-nav li{
+   display: inline;
+    
+}
+
+.main-nav li a{
+    
+color:blue; 
+padding: 5px;
+border: 1px solid brown;
+border-radius: 10px;
+margin-left:5px;
+
+
+}
+.main-nav li a:hover{
+    border:2px solid green;
+
+}
+
+body{
+    margin-top: 50px;
+    
+}
+#profile{
+    
+    margin-top:100px;
+    width:100%;
+    height:200px;
+
+    
+    
+    
+}
+#quote{
+    margin-top:200px;
+    color:maroon;
+}
+
+img{
+
+    height: 500px;
+    width:500px;
+    object-fit: cover;
+    float:left;
+    
+}
+
+
+#part1{
+  background-image:url(back21.jpg);
+  background-size:cover;
+  margin-top:600px;
+  height: 700px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+#part2{
+    background-image:url(back21.jpg);
+    height: 700px;
+    width: 100%;
+    padding-top: 30px; 
+  }
+
+#part3{
+    background-image:url(back21.jpg);
+    height: 700px;
+    width: 100%;
+    padding-top: 30px;
+  }
+#part4{
+    background-image:url(back21.jpg);
+    height: 700px;
+    width: 100%;
+    padding-top: 30px;
+    font-size:30px;
+    margin-top:400px;
+    text-align: left;
+  }
+  
+h1{
+    font-size:40px;
+    font-family: Verdana;
+    color:rgb(80, 184, 32);
+    
+}
+
+.links{
+    border:1px solid brown;
+    font-size:40px; 
+    color:greenyellow;
+ 
+
+}
+.links li a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  
+.links li a:hover {
+    color:orange;
+  }
+
+#desc{
+    text-decoration: underline;
+    text-indent: 50px;
+}
+
+#webrepo{
+    text-indent: 50px;
+}
+
+h2{
+    font-size:30px;
+    color:rgb(80, 184, 32);
+    
+}
+h3{
+    text-indent: 50px;
+    font-size:30px;
+    color:orange;
+    color:rgb(80, 184, 32);
+    
+}
+p{
+    font-size: 30px;
+    border:1px solid brown;
+    padding:30px;
+    color:black;
+    
+
+}
